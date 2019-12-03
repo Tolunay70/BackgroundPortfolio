@@ -1,0 +1,54 @@
+/*body {*/
+/*    cursor: url("cursorcustom.png") 64 62, auto;*/
+/*}*/
+/*.fullscreen-bg {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.noncolored {*/
+/*    position: absolute;*/
+/*    top: -10%;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    transform: scale(1.5);*/
+/*    filter: grayscale(1);*/
+/*    z-index: -100;*/
+/*}*/
+/*.colored {*/
+/*    position: absolute;*/
+/*    top: -10%;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    transform: scale(1.5);*/
+/*    z-index: -101;*/
+/*}*/
+html, body, .colored {
+    position: relative;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+.nocolor {
+    filter: grayscale(1);
+    position: absolute;
+    width: 100%;
+}
+.mousevid {
+    width: 100%;
+    margin: 0;
+    -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/40713/xray-machine.png');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 250px;
+    cursor: none;
+}
+* {
+    box-sizing: border-box;
+}
+
